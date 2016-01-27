@@ -1,5 +1,7 @@
 language: java
 build_image: drydock/u14javall:tip
+services:
+   - mysql
 
 jdk:
    - oraclejdk7
